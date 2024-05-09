@@ -1,0 +1,18 @@
+[
+  {
+    "role": "Software Developer - C",
+    "organisation": "Ross Video",
+    "startDate": "Sept, 2023",
+    "endDate": "Dec, 2023",
+    "experiences": ["Fixed critical crashes in serial interface of AMP protocol for Ultrix Acuity switchers", "Developed video server simulator and VB Script for future testing of AMP protocol"],
+    "imageSrc": "history/rv.jpg"
+  },
+  {
+    "role": "Managing Partner",
+    "organisation": "ULM Promotions",
+    "startDate": "June, 2023",
+    "endDate": "Present",
+    "experiences": ["Founded ULM Promotions, an online marketing agency catering to real estate agents, with lead generation being the main focus"],
+    "imageSrc": "history/ulm.png"
+  }
+]

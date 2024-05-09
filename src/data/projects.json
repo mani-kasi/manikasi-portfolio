@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Neureset",
+    "imageSrc": "projects/eegdevice.png",
+    "description": "An Direct Neurofeedback EEG device simulator built with C++ and QT.",
+    "skills": ["C++", "QT", "Linux"],
+    "source": "https://github.com/mani-kasi/Neureset"
+  },
+  {
+    "title": "Private Notes",
+    "imageSrc": "projects/privatenotes.png",
+    "description": "a Full-Stack note app with user authentication.",
+    "skills": ["React", "Express", "Node", "TypeScript", "MongoDB", "Tailwind"],
+    "source": "https://github.com/mani-kasi/Private-Notes"
+  },
+  {
+    "title": "Ghost Hunter Simulator",
+    "imageSrc": "projects/ghosthunter.png",
+    "description": "A simulator imitating the game 'Phasmophobia', where 4 hunters search a house to find evidence of ghostly activity.",
+    "skills": ["C", "Linux", "Valgrind"],
+    "source": "https://github.com/mani-kasi/Ghost-Hunter-Simulator"
+  },
+  {
+    "title": "ULM Promotions Website",
+    "imageSrc": "projects/ulm.png",
+    "description": "The website for my personal marketing agency, ULM Promotions.",
+    "skills": ["JavaScript", "HTML", "PHP", "Bootstrap"],
+    "source": "https://github.com/mani-kasi/ULM-Promotions-Website"
+  }
+]
