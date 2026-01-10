@@ -13,7 +13,7 @@ export const Hero = () => {
         </p>
         <div className={styles.buttonGroup}>
           <a
-            href="/assets/hero/resume.pdf"
+            href="/public/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactBtn}
