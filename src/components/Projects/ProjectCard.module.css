@@ -7,22 +7,34 @@
   background: linear-gradient(180deg, #c18ff0 0%, rgb(47, 29, 63) 100%);
   box-shadow: 0 16px 14px 0 #20042d;
   padding: 18px 24px;
-  max-width: 345px;
+  max-width: 420px;
+  height: 100%;
 }
 
 .image {
-  margin-bottom: 26px;
+  width: 100%;
+  height: 260px;
+  object-fit: contain;
+  background: rgba(0,0,0,0.15);
+  border-radius: 12px;
+  margin-bottom: 18px;
 }
 
 .title {
-  font-size: 25px;
+  font-size: 22px;
   font-weight: 700;
 }
 
 .description {
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
+
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6; 
+  overflow: hidden;
+  min-height: calc(1.3em * 6);
 }
 
 .skills {
@@ -45,9 +57,10 @@
 
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: auto;
+  padding-top: 18px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .link {
@@ -57,5 +70,5 @@
   font-weight: 600;
   border-radius: 100px;
   background: var(--color-primary);
-  padding: 1px 22px;
+  padding: 6px 26px;
 }

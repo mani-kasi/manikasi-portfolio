@@ -9,11 +9,42 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hey! I'm Mani</h1>
         <p className={styles.description}>
-          I'm a Software Developer and Computer Science Student based in Ottawa, Ontario. Lets Connect!
+          I'm a Software Developer and Computer Science Student based in Ottawa, Ontario. Let's Connect!
         </p>
-        <a href="mailto:manikasi@cmail.carleton.ca" className={styles.contactBtn}>
-          Contact Me
-        </a>
+        <div className={styles.buttonGroup}>
+          <a
+            href="/assets/hero/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactBtn}
+          >
+            Resume
+          </a>
+          <a
+            href="https://github.com/mani-kasi"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactBtn}
+          >
+            GitHub
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mani-kasi-479291252/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactBtn}
+          >
+            LinkedIn
+          </a>
+          <a
+            href="mailto:manikasi@cmail.carleton.ca"
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.contactBtn}
+          >
+            Email
+          </a>
+        </div>
       </div>
       <img
         src={getImageUrl("hero/mani.png")}

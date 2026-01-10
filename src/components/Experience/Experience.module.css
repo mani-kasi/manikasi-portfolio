@@ -18,15 +18,20 @@
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 48px;
   margin-top: 14px;
 }
 
 .skills {
   width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
+  max-width: 600px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px 32px;
+ ڍjustify-items: center;
 }
 
 .skill {

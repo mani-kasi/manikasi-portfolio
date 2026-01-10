@@ -1,5 +1,15 @@
 [
   {
+    "title": "TypeScript",
+    "imageSrc": "skills/ts.png"
+  },
+  
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/js.png"
+  },
+  
+  {
     "title": "C/C++",
     "imageSrc": "skills/cpp.png"
   },
@@ -7,16 +17,6 @@
   {
     "title": "Java",
     "imageSrc": "skills/java.png"
-  },
-
-  {
-    "title": "JavaScript",
-    "imageSrc": "skills/js.png"
-  },
-
-  {
-    "title": "TypeScript",
-    "imageSrc": "skills/ts.png"
   },
 
   {

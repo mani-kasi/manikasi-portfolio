@@ -1,18 +1,36 @@
 [
   {
+    "role": "Software Developer, Front-End UI/UX Co-op",
+    "organisation": "Ciena",
+    "startDate": "Sept, 2024",
+    "endDate": "Apr, 2025",
+    "experiences": [
+      "Built and optimized front-end features for the Navigator Network Control Suite using Ember.js and TypeScript",
+      "Developed a reusable filtering and preset system adopted across recurring table views",
+      "Resolved conflicts between presets and local storage using conditional persistence to ensure consistent state"
+    ],
+    "imageSrc": "history/ciena.png"
+  },
+  {
     "role": "Software Developer - C",
     "organisation": "Ross Video",
     "startDate": "Sept, 2023",
     "endDate": "Dec, 2023",
-    "experiences": ["Fixed critical crashes in serial interface of AMP protocol for Ultrix Acuity switchers", "Developed video server simulator and VB Script for future testing of AMP protocol"],
+    "experiences": [
+      "Fixed critical crashes in the AMP protocol serial interface for Ultrix Acuity switchers",
+      "Built a Docklight-based video server simulator with automated VBScript responses for protocol testing without hardware"    
+    ],
     "imageSrc": "history/rv.jpg"
   },
   {
     "role": "Managing Partner",
     "organisation": "ULM Promotions",
     "startDate": "June, 2023",
-    "endDate": "Present",
-    "experiences": ["Founded ULM Promotions, an online marketing agency catering to real estate agents, with lead generation being the main focus"],
+    "endDate": "Nov, 2024",
+    "experiences": [
+      "Founded and operated an online advertising service specializing in real estate marketing",
+      "Built a lead qualification process handling hundreds of leads and consistently delivering 5+ qualified clients monthly"
+    ],
     "imageSrc": "history/ulm.png"
   }
 ]
